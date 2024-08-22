@@ -562,8 +562,16 @@ video {
   z-index: 0;
 }
 
+.block {
+  display: block;
+}
+
 .grid {
   display: grid;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-full {
@@ -578,6 +586,10 @@ video {
   width: 100%;
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+.grid-rows-3 {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
+.backgroundColor{
+  background-color: #f1f1f1;
 }

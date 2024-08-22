@@ -1,5 +1,17 @@
+@import 'root.css';
+@import 'reset.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import 'root.css';
-@import 'reset.css';
+
+.backgroundImage{
+    background: url('../assets/images/background-pattern-desktop.svg');
+    background-size: cover;
+}
+.backgroundColor{
+    background-color: var(--lightPink-bg-color);
+}
+.backgroundCard{
+    background-color: var(--white-bg-color);
+}
