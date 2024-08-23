@@ -5,6 +5,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    font-family: 'Work Sans', sans-serif;
+}
 .backgroundImage{
     background: url('../assets/images/background-pattern-desktop.svg');
     background-size: cover;
@@ -14,4 +17,13 @@
 }
 .backgroundCard{
     background-color: var(--white-bg-color);
+}
+.titleContent_title{
+    color: var(--DarkPurple-font-color);
+}
+.faqContentMain-first_title{
+    color: var(--DarkPurple-font-color);
+}
+.faqContentMain-second_text{
+    color: var(--GrayishPurple-font-color);
 }
